@@ -7,8 +7,8 @@ import pandas as pd
 import seaborn as sns
 from IPython.display import Markdown
 
-bike_day_cleaned = pd.read_csv('/content/dashboard/bike_day_cleaned_df.csv')
-bike_hour_cleaned = pd.read_csv('/content/dashboard/bike_hour_cleaned_df.csv')
+bike_day_cleaned = pd.read_csv('https://raw.githubusercontent.com/FadhilBangkit/submission/refs/heads/main/dashboard/main_data_1.csv')
+bike_hour_cleaned = pd.read_csv('https://raw.githubusercontent.com/FadhilBangkit/submission/refs/heads/main/dashboard/main_data_2.csv')
 
 
 relevant_columns_day = ['season', 'yr', 'mnth', 'holiday', 'weekday', 'workingday', 'weathersit', 'temp', 'atemp', 'hum', 'windspeed', 'cnt']
